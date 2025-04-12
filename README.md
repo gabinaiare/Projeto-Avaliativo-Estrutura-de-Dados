@@ -1,17 +1,28 @@
-# Projeto-Avaliativo-Estrutura-de-Dados
-Projeto da primeira avaliação da matéria de Algoritmo e Estrutura de Dados I
+# 🚗 Projeto: Sistema de Viagens em C
 
-Este projeto tem como objetivo desenvolver um programa que permita o cadastro e login de motoristas e passageiros. Além disso, o programa possibilita a visualização, edição e exclusão de informações.
-Pretendo fazer modificações futuras nele, adicionando agendamento de viagens e compra de passagens.
+Este projeto é um sistema de viagens desenvolvido em linguagem C, com funcionalidades de cadastro e login para dois tipos de usuários: passageiros e motoristas. A interação com o usuário acontece por meio de um menu no terminal, simulando o funcionamento básico de uma plataforma de mobilidade urbana.
 
-*Atualização*
+O sistema permite que os usuários se cadastrem, façam login, e acessem menus específicos de acordo com seu tipo (passageiro ou motorista).
 
-O projeto foi atualizado para a segunda avaliação.
+Este trabalho foi realizado como parte da avaliação da disciplina Algoritmos e Estruturas de Dados I, ministrada pelo professor Reudismam Rolim, no curso de Tecnologia da Informação da Universidade Federal Rural do Semi-Árido (UFERSA).
 
-Foi adicionado as funções de agendamento viagens e compra de passagens, com outras opções que as envolvem. Além da busca binária também incluida e a modularização, como requisitos da avaliação.
+## 🔧 Funcionalidades
+- 📋 Cadastro de usuários
 
-*Atualização*
+  Passageiros e motoristas podem se registrar no sistema.
 
-Assim como foi na segunda avaliação, houve atualizações para a terceira avaliação.
+- 🔐 Login com verificação
 
-Como a remoção dos arquivos txt e da busca binária, fiz a troca de vetores para listas como foi pedido na avaliação.
+  Sistema valida os dados de login e direciona o usuário ao menu apropriado.
+
+- 👤 Menu do Passageiro
+
+  Ações específicas para passageiros após o login (ex: visualizar motoristas, sair do sistema etc).
+
+- 🚗 Menu do Motorista
+
+  Ações específicas para motoristas após o login.
+
+- 💾 Armazenamento de dados em arquivos  
+
+  Os dados de usuários são salvos e carregados por meio de arquivos no disco.
